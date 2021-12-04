@@ -1,28 +1,16 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "title": "Task 1",
-      "dueDate": "2018-01-01",
-      "reminder": true
+      "title": "Updated via Insomnia",
+      "dueDate": "2021-12-31",
+      "reminder": true,
+      "id": 1
     },
     {
-      "id": "2",
-      "title": "Task 2",
-      "dueDate": "2018-01-02",
-      "reminder": true
-    },
-    {
-      "id": "3",
-      "title": "Task 3",
-      "dueDate": "2018-01-03",
-      "reminder": true
-    },
-    {
-      "title": "Task 4",
-      "dueDate": "2021-11-30",
-      "reminder": false,
-      "id": "5La9_7t"
+      "title": "New task",
+      "dueDate": "2021-12-09",
+      "reminder": true,
+      "id": 2
     }
   ]
 }

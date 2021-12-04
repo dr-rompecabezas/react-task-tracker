@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const AddTask = ({ onAddTask }) => {
   const [title, setTitle] = useState("");
-  const [dueDate, setDueDate] = useState(new Date());
+  const [dueDate, setDueDate] = useState("");
   const [reminder, setReminder] = useState(false);
 
   const onSubmit = (e) => {
@@ -14,7 +14,7 @@ const AddTask = ({ onAddTask }) => {
     onAddTask({ title, dueDate, reminder });
 
     setTitle("");
-    setDueDate(new Date());
+    setDueDate("");
     setReminder(false);
   };
 
