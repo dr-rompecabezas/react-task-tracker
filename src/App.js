@@ -5,6 +5,8 @@ import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import TaskDetails from "./components/TaskDetails";
+import NotFound from "./components/NotFound";
 
 function App() {
   const [showAddTask, setShowAddTask] = useState(false);
@@ -88,7 +90,6 @@ function App() {
         <Routes>
           <Route
             path="/"
-            exact
             element={
               <>
                 {showAddTask && <AddTask onAddTask={addTask} />}
@@ -105,6 +106,8 @@ function App() {
             }
           />
           <Route path="/about" element={<About />} />
+          <Route path="/task/:id" element={<TaskDetails tasks={tasks} />} />
+          <Route path="/not-found" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

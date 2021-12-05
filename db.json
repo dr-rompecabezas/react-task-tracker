@@ -3,12 +3,12 @@
     {
       "title": "Updated via Insomnia",
       "dueDate": "2021-12-31",
-      "reminder": true,
+      "reminder": false,
       "id": 1
     },
     {
-      "title": "New task",
-      "dueDate": "2021-12-09",
+      "title": "Complete Typescript Tutorial",
+      "dueDate": "2021-12-31",
       "reminder": true,
       "id": 2
     }
